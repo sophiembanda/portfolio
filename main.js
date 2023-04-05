@@ -73,15 +73,15 @@
         delay: 200
     });
 
-    ScrollReveal().reveal('.home-text h4', { 
+    ScrollReveal().reveal('.home-text h4,.about-content h5,.about-content h3,.section-title h5,.section-title h3,.line', { 
         origin: 'top' 
     });
-    ScrollReveal().reveal('', { 
+    ScrollReveal().reveal('.home-text ul,.home-image img,table,.service-item,.mapouter,.contact-item,.input-group', { 
         origin: 'bottom' 
     });
-     ScrollReveal().reveal('', { 
+     ScrollReveal().reveal('.home-text h1,.home-text p,.about-content p', { 
         origin: 'left' 
     });
-     ScrollReveal().reveal('', { 
+     ScrollReveal().reveal('.home-text span,.more-btn,.submit-btn', { 
         origin: 'right' 
     });
