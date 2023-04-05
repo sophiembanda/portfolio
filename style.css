@@ -499,6 +499,13 @@ background-color: #cbcbcf;
 {
     color: var(--black-100);
 }
+.service-section .more-btn
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: right;
+    padding: 0 15px;
+}
 /*===== contact =====*/
 .contact-section
 {
@@ -513,15 +520,15 @@ background-color: #cbcbcf;
     display: flex;
     flex-wrap: wrap;
 }
-.contact-section .contact-item-inner1{
+.contact-item-inner1{
     padding: 30px 15px;
     text-align: center;
     box-shadow: var(--shadow-black-100);
     border-radius: 5px;
     width: 100%;
-    background-image: url(image\telimage2.jpg);
+    background-image: url(telimage2.jpg);
 }
-.contact-section .contact-item-inner2
+.contact-item-inner2
 {
     padding: 30px 15px;
     text-align: center;
@@ -529,17 +536,17 @@ background-color: #cbcbcf;
     border-radius: 5px;
     width: 100%;
     object-fit: cover;
-    background-image: url(image\email.gif);
+    background-image: url(email.gif);
     
 }
-.contact-section .contact-item-inner3
+.contact-item-inner3
 {
     padding: 30px 15px;
     text-align: center;
     box-shadow: var(--shadow-black-100);
     border-radius: 5px;
     width: 100%;
-    background-image: url(image\location.gif);
+    background-image: url(location.gif);
 }
 .contact-section .contact-item-inner1 i,
 .contact-section .contact-item-inner2 i,
@@ -564,7 +571,7 @@ background-color: #cbcbcf;
 .contact-section .contact-item-inner3 p
 {
     font-size: 16px;
-    color: var(--black-900);
+    color: var(--main-color);
     line-height: 26px;
     margin: 0;
 }
